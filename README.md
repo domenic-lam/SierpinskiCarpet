@@ -1,1 +1,1 @@
-# Sierpinski-Carpet
+# Sierpinski Carpet
