@@ -8,7 +8,7 @@ public void draw(){
 	sierpinski(0, 0, screenSize - 1, screenSize - 1);
 }
 public void sierpinski(int x, int y, int lenX, int lenY) {
-	if(lenX > 2 || lenY > 2){
+	if(lenX > 5 || lenY > 5){
 		int len = lenX = lenY;
 		sierpinski(x, y, len/3, len/3);
 		sierpinski(x + len/3, y, len/3, len/3);
