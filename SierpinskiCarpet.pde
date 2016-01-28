@@ -1,7 +1,7 @@
 public int screenSize;
 public void setup(){
 	background(255);
-	screenSize = 600;
+	screenSize = 450;
 	size(screenSize, screenSize);
 }
 public void draw(){
