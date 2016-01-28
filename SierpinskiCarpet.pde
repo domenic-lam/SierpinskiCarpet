@@ -7,10 +7,6 @@ public void setup(){
 public void draw(){
 	sierpinski(0, 0, screenSize - 1, screenSize - 1);
 }
-public void mousePressed() { //optional
-	background(255);
-	sierpinski(mouseX, mouseY, screenSize/3, screenSize/3);
-}
 public void sierpinski(int x, int y, int lenX, int lenY) {
 	if(lenX > 2 || lenY > 2){
 		int len = lenX = lenY;
